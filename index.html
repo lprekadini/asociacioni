@@ -1,0 +1,123 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <div class="first-round">
+                <div class="column column-a">
+                    <div class="column-item" id="a1" onclick="revealFirstRound('a1')">
+                        <h3>A1</h3>
+                        <span class="none">value</span>
+                    </div>
+                    <div class="column-item" id="a2" onclick="revealFirstRound('a2')">
+                        <h3>A2</h3>
+                        <span class="none">value</span>
+                    </div>
+                    <div class="column-item" id="a3" onclick="revealFirstRound('a3')">
+                        <h3>A3</h3>
+                        <span class="none">value</span>
+                    </div>
+                    <div class="column-item" id="a4" onclick="revealFirstRound('a4')">
+                        <h3>A4</h3>
+                        <span class="none">value</span>
+                    </div>
+                </div>
+                <div class="column column-b">
+                    <div class="column-item" id="b1" onclick="revealFirstRound('b1')">
+                        <h3>B1</h3>
+                        <span class="none">value</span>
+                    </div>
+                    <div class="column-item" id="b2" onclick="revealFirstRound('b2')">
+                        <h3>B2</h3>
+                        <span class="none">value</span>
+                    </div>
+                    <div class="column-item" id="b3" onclick="revealFirstRound('b3')">
+                        <h3>B3</h3>
+                        <span class="none">value</span>
+                    </div>
+                    <div class="column-item" id="b4" onclick="revealFirstRound('b4')">
+                        <h3>B4</h3>
+                        <span class="none">value</span>
+                    </div>
+                </div>
+                <div class="column column-c">
+                    <div class="column-item" id="c1" onclick="revealFirstRound('c1')">
+                        <h3>A1</h3>
+                        <span class="none">value</span>
+                    </div>
+                    <div class="column-item" id="c2" onclick="revealFirstRound('c2')">
+                        <h3>A2</h3>
+                        <span class="none">value</span>
+                    </div>
+                    <div class="column-item" id="c3" onclick="revealFirstRound('c3')">
+                        <h3>A3</h3>
+                        <span class="none">value</span>
+                    </div>
+                    <div class="column-item" id="c4" onclick="revealFirstRound('c4')">
+                        <h3>A4</h3>
+                        <span class="none">value</span>
+                    </div>
+                </div>
+                <div class="column column-d">
+                    <div class="column-item" id="d1" onclick="revealFirstRound('d1')">
+                        <h3>B1</h3>
+                        <span class="none">value</span>
+                    </div>
+                    <div class="column-item" id="d2" onclick="revealFirstRound('d2')">
+                        <h3>B2</h3>
+                        <span class="none">value</span>
+                    </div>
+                    <div class="column-item" id="d3" onclick="revealFirstRound('d3')">
+                        <h3>B3</h3>
+                        <span class="none">value</span>
+                    </div>
+                    <div class="column-item" id="d4" onclick="revealFirstRound('d4')">
+                        <h3>B4</h3>
+                        <span class="none">value</span>
+                    </div>
+                </div>
+            </div>
+            <div class="second-round">
+                <div class="column semi-final">
+                    <div class="column-item" id="sm1" onclick="revealFirstRound('sm1','column-a')">
+                        <h3>Final A</h3>
+                        <span class="none">value</span>
+                    </div>
+                    <div class="column-item" id="sm2" onclick="revealFirstRound('sm2','column-b')">
+                        <h3>Final B</h3>
+                        <span class="none">value</span>
+                    </div>
+                    <div class="column-item" id="sm3" onclick="revealFirstRound('sm3','column-c')">
+                        <h3>Final C</h3>
+                        <span class="none">value</span>
+                    </div>
+                    <div class="column-item" id="sm4" onclick="revealFirstRound('sm4','column-d')">
+                        <h3>Final D</h3>
+                        <span class="none">value</span>
+                    </div>
+                </div>
+            </div>
+            <div class="final-round">
+                <div class="column final">
+                    <div class="column-item" id="final" onclick="revealFinal('final')">
+                        <h3>Final</h3>
+                        <span class="none">value</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
