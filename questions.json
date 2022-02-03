@@ -1,33 +1,33 @@
 {
-    "main_ans": "Liridon",
+    "main_ans": "Titulli",
     "final": {
-        "final1": "test1",
-        "final2": "test2",
-        "final3": "test3",
-        "final4": "test4"
+        "final1": "Romani",
+        "final2": "Nderi",
+        "final3": "Kampion",
+        "final4": "Profesor"
     },
     "column_a": {
-        "1": "test1a",
-        "2": "test2",
-        "3": "test3s",
-        "4": "test4"
+        "1": "Personazh",
+        "2": "Prolog",
+        "3": "Autor",
+        "4": "Liber"
     },
     "column_b": {
-        "1": "test1b",
-        "2": "test2b",
-        "3": "test3b",
-        "4": "test4b"
+        "1": "'Fytyra'",
+        "2": "Roje",
+        "3": "Musafir",
+        "4": "Respekti"
     },
     "column_c": {
-        "1": "test1c",
-        "2": "test2c",
-        "3": "test3c",
-        "4": "test4c"
+        "1": "Absolut",
+        "2": "1",
+        "3": "Olimpik",
+        "4": "Medalja"
     },
     "column_d": {
-        "1": "test1d",
-        "2": "test2d",
-        "3": "test3d",
-        "4": "test4d"
+        "1": "Kujdestar",
+        "2": "Provimi",
+        "3": "Doktor",
+        "4": "Ligjiratat"
     }
 }
